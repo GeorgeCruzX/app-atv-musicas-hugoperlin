@@ -119,14 +119,12 @@ public class JDBCGeneroDAO implements GeneroDAO {
 
     @Override
     public Resultado atualizar(int id, Genero novo) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'atualizar'");
+       throw new UnsupportedOperationException("Unimplemented method 'atualizar'");
     }
 
     @Override
     public Resultado delete(int id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'delete'");
+       throw new UnsupportedOperationException("Unimplemented method 'delete'");
     }
 
 }

@@ -1,0 +1,6 @@
+package ifpr.pgua.eic.colecaomusicas.controllers;
+
+public interface PlaylistDAO {
+    void criar(Playlist playlist);
+    List<Playlist> listar();
+}

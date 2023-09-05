@@ -11,8 +11,6 @@ import ifpr.pgua.eic.colecaomusicas.model.daos.JDBCArtistaDAO;
 import ifpr.pgua.eic.colecaomusicas.model.daos.JDBCGeneroDAO;
 import ifpr.pgua.eic.colecaomusicas.model.daos.JDBCMusicaDAO;
 import ifpr.pgua.eic.colecaomusicas.model.daos.MusicaDAO;
-import ifpr.pgua.eic.colecaomusicas.model.entities.Artista;
-import ifpr.pgua.eic.colecaomusicas.model.entities.Genero;
 import ifpr.pgua.eic.colecaomusicas.model.entities.Musica;
 import ifpr.pgua.eic.colecaomusicas.model.repositories.RepositorioMusicas;
 

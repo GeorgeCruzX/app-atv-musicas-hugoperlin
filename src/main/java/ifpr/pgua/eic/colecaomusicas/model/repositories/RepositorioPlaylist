@@ -1,0 +1,20 @@
+package ifpr.pgua.eic.colecaomusicas.model.repositories;
+
+public class RepositorioPlaylist {
+    private PlaylistDAO playlistDAO;
+
+    public RepositorioPlaylist(PlaylistDAO playlistDAO) {
+        this.playlistDAO = playlistDAO;
+    }
+
+    public void cadastrarPlaylist(String nome, List<Musica> musicas) {
+        Playlist playlist = new Playlist();
+        playlist.setNome(nome);
+        playlist.setMusicas(musicas);
+        playlistDAO.criar(playlist);
+    }
+
+    public List<Playlist> listarPlaylists() {
+        return playlistDAO.listar();
+    }
+}

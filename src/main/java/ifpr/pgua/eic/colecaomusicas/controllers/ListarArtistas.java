@@ -8,9 +8,7 @@ import com.github.hugoperlin.results.Resultado;
 
 import ifpr.pgua.eic.colecaomusicas.App;
 import ifpr.pgua.eic.colecaomusicas.model.entities.Artista;
-import ifpr.pgua.eic.colecaomusicas.model.entities.Genero;
 import ifpr.pgua.eic.colecaomusicas.model.repositories.RepositorioArtistas;
-import ifpr.pgua.eic.colecaomusicas.model.repositories.RepositorioGeneros;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

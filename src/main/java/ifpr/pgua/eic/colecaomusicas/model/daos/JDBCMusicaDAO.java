@@ -83,14 +83,12 @@ public class JDBCMusicaDAO implements MusicaDAO{
 
     @Override
     public Resultado atualizar(int id, Musica nova) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'atualizar'");
+       throw new UnsupportedOperationException("Unimplemented method 'atualizar'");
     }
 
     @Override
     public Resultado deletar(int id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'deletar'");
+       throw new UnsupportedOperationException("Unimplemented method 'deletar'");
     }
 
     

@@ -137,13 +137,11 @@ public class JDBCArtistaDAO implements ArtistaDAO{
 
     @Override
     public Resultado atualizar(int id, Artista novo) {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'atualizar'");
     }
 
     @Override
     public Resultado deletar(int id) {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'deletar'");
     }
     

@@ -1,24 +1,18 @@
 package ifpr.pgua.eic.colecaomusicas.model.repositories;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.ArrayList;
 
 import com.github.hugoperlin.results.Resultado;
 
 import ifpr.pgua.eic.colecaomusicas.model.daos.ArtistaDAO;
-import ifpr.pgua.eic.colecaomusicas.model.daos.FabricaConexoes;
 import ifpr.pgua.eic.colecaomusicas.model.entities.Artista;
 
 public class RepositorioArtistas {
     
-    private ArrayList<Artista> artistas;
-
     private ArtistaDAO dao;
 
     public RepositorioArtistas(ArtistaDAO dao){
-        artistas = new ArrayList<>();
+        new ArrayList<>();
         this.dao = dao;
     }
 
